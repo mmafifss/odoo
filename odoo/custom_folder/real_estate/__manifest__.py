@@ -3,15 +3,22 @@
     'name': "Real Estate",
     'summary': "Manage Properties and Real Estate Offers",
     'description': """
-        Modul latihan Odoo 17: Manajemen Properti Real Estate.
+        Modul Enterprise Real Estate:
+        - Manajemen Properti & Penawaran
+        - Wizard Popup Penawaran Interaktif
+        - Role & Record Rules (Agent vs Manager)
+        - QWeb PDF Reporting & Mail Tracking
     """,
     'author': "Developer",
     'category': 'Real Estate',
     'version': '17.0.1.0.0',
-    'depends': ['base'],
+    'depends': ['base', 'mail'],
     'data': [
+        'security/security.xml',
         'security/ir.model.access.csv',
+        'wizards/property_offer_wizard_views.xml',
         'views/views.xml',
+        'reports/property_report.xml',
     ],
     'application': True,
     'installable': True,
