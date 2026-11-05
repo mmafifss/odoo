@@ -19,6 +19,7 @@
         'wizards/property_offer_wizard_views.xml',
         'views/views.xml',
         'reports/property_report.xml',
+        'data/demo_data.xml',
     ],
     'application': True,
     'installable': True,
