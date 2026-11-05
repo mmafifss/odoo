@@ -101,5 +101,5 @@ real_estate/
 ---
 
 ## 👨‍💻 Author
-- **Nama Anda**: [LinkedIn Profile](https://linkedin.com/in/mmafifss) | [GitHub](https://github.com/mmafifss)
+- **Mochamad Afif Solahudin**: [LinkedIn Profile](https://linkedin.com/in/mmafifss) | [GitHub](https://github.com/mmafifss)
 
