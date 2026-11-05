@@ -23,6 +23,8 @@ odoo/filestore
 odoo/addons/base/maintenance
 # window installation config file
 /odoo.conf
+/odoo17.conf
+odoo/custom_folder/
 
 # generated for windows installer?
 install/win32/*.bat
